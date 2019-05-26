@@ -4,15 +4,19 @@
 
 use yii\helpers\Html;
 
-$this->title                   = 'About';
+$this->title = 'Мотивация сотрудников';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-	<h1><?= Html::encode($this->title) ?></h1>
+    <h1><?= Html::encode($this->title) ?></h1>
 
-	<p>
-		This is the About page. You may modify the following file to customize its content:
-	</p>
+    <p>
+        Целью системы мотивации является удержать наиболее ценных сотрудников и повысить степень их лояльности к
+        компании, с тем чтобы минимизировать текучесть кадров. При этом очень важно, чтобы практика мотивации не была
+        для самой компании убыточной.</p>
+    <p>
+        На сегодняшний день в мире разработано и внедрено большое количество систем мотивации, учитывающих коллективные
+        и индивидуальные показатели, цели и задачи, коэффициенты трудового участия и другие факторы. </p>
 
-	<code><?= __FILE__ ?></code>
+    <img src="http://v20.com.br/wp-content/uploads/2017/05/xxxxxxxxxxxxxxxx.png" class="image img-responsive">
 </div>

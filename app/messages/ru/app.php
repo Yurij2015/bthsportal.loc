@@ -46,6 +46,7 @@ return [
     'Tutor' => 'Преподаватель',
     'Tutors' => 'Учителя',
     'Update' => 'Обновить',
+     'UserName' => 'Логин',
     'Update Category: {name}' => 'Обновить категорию: {name}',
     'Update Course: {name}' => 'Обновить курс: {name}',
     'Are you sure you want to delete this item?' => '',

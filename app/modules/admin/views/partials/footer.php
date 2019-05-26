@@ -1,4 +1,4 @@
 
 <footer class="main-footer">
-	<strong>&copy; 2017 My Company</strong>. All rights reserved.
+	<strong>&copy  Система мотивации сотрудников <?=date('Y'); ?></strong>. Все права защищены.
 </footer>

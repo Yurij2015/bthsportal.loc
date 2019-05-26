@@ -23,7 +23,7 @@ echo Nav::widget([
 //        ['label' => Yii::t('app', 'Course'), 'url' => ['/course/index']],
 //        ['label' => Yii::t('app', 'News'), 'url' => ['/news/index']],
 //        ['label' => Yii::t('app', 'Tutor'), 'url' => ['/tutor/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'О системе', 'url' => ['/site/about']],
         ['label' => 'Обратная связь', 'url' => ['/site/contact']],
         ['label' => 'АдминПанель', 'url' => ['/admin'], 'visible' => user()->can(RbacItem::PERMISSION_ADMINISTER)],
         Yii::$app->user->isGuest ? (
