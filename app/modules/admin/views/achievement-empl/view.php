@@ -1,0 +1,40 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+
+/* @var $this yii\web\View */
+/* @var $model app\modules\admin\models\AchievementEmpl */
+
+$this->title = $model->idachievement_empl;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Achievement Empls'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
+\yii\web\YiiAsset::register($this);
+?>
+<div class="achievement-empl-view">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <p>
+        <?= Html::a(Yii::t('app', 'Update'), ['update', 'id' => $model->idachievement_empl], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a(Yii::t('app', 'Delete'), ['delete', 'id' => $model->idachievement_empl], [
+            'class' => 'btn btn-danger',
+            'data' => [
+                'confirm' => Yii::t('app', 'Are you sure you want to delete this item?'),
+                'method' => 'post',
+            ],
+        ]) ?>
+    </p>
+
+    <?= DetailView::widget([
+        'model' => $model,
+        'attributes' => [
+            'idachievement_empl',
+            'user_id',
+            'achievement_idachievement',
+            'date_add',
+            'date_up',
+        ],
+    ]) ?>
+
+</div>

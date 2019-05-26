@@ -1,3 +1,0 @@
-var bads=document.getElementById('paramsemestr').getAttribute('data-ads');
-if(document.getElementById(bads))document.getElementById(bads).innerHTML='<a rel="nofollow" href="https://www.semestr.ru/2gnJbB6" target="_blank"><img src="https://www.semestr.ru/images/foxford/min.png"></a>';
-if(document.getElementById('bn_math'))document.getElementById('bn_math').innerHTML='<a rel="nofollow" href="https://www.semestr.ru/2gnJbB6" target="_blank"><img src="https://www.semestr.ru/images/foxford/min.png"></a>';
